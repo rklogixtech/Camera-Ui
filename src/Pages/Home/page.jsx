@@ -401,7 +401,6 @@ function Mission() {
 }
 
 function Finale({ onShot }) {
-  const [n, setN] = useState(0);
   return (
     <section className="sc fin" id="contact">
       <div className="fin-big">{[0, 1].map((k) => <span key={k}>Find your frame · Find your frame ·</span>)}</div>

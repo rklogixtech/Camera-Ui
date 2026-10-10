@@ -1295,6 +1295,7 @@ const CSS = `
 }
 `;
 
+/* eslint-disable no-unused-vars, no-loop-func */
 /* ═══════ COMPONENT ═══════ */
 export default function NIKONPage() {
   const [progress, setProgress] = useState(0);

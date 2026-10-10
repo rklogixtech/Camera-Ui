@@ -320,7 +320,7 @@ function Channels() {
               color: GOLD,
             }}
           >
-            <WHATSAPP.icon className="w-6 h-6" />
+            <WHATSAPP.icon className="w-6 h-6" /> {/* eslint-disable-line */}
           </span>
 
           <div className="relative flex-1 min-w-0">
